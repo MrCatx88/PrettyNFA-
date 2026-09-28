@@ -1,5 +1,12 @@
 # Update notes
 
+## v1.0.1
+
+- Deleted cached accounts now stay deleted, also after a restart or a new sign-in.
+- Accounts are safer: if the accounts file is ever damaged, PrettyNFA loads your accounts from its backup.
+- Saves can no longer overwrite each other, so accounts never disappear from the list.
+- Signing in keeps working even if the saved logins file is briefly locked.
+
 ## v1.0.0
 
 First release of PrettyNFA.
