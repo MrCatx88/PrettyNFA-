@@ -1,5 +1,12 @@
 # Update notes
 
+## v1.0.2
+
+- Deleting an account now removes every trace of it: its token, avatar, stats, backup copy and log entries.
+- Steam on this PC forgets deleted accounts too. If Steam is open, this finishes the next time you sign in through PrettyNFA.
+- Removing a saved login on Cached Accounts also makes Steam forget it, so it cannot come back.
+- Clearer delete confirmations that say exactly what gets removed.
+
 ## v1.0.1
 
 - Deleted cached accounts now stay deleted, also after a restart or a new sign-in.
