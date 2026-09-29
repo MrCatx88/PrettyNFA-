@@ -1,5 +1,9 @@
 # Update notes
 
+## v1.0.4
+
+- Check for updates always works; the Update button only appears when a newer version is out.
+
 ## v1.0.3
 
 - Cached Accounts: every saved login has its own Restore login button again, no need to select it first.
