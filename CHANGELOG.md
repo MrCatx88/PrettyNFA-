@@ -1,5 +1,9 @@
 # Update notes
 
+## v1.0.3
+
+- Cached Accounts: every saved login has its own Restore login button again, no need to select it first.
+
 ## v1.0.2
 
 - Deleting an account now removes every trace of it: its token, avatar, stats, backup copy and log entries.
