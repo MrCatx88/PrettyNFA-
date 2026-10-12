@@ -1,5 +1,9 @@
 # Update notes
 
+## v1.0.7
+
+- Installer: the finished page no longer overlaps the PrettyNFA header.
+
 ## v1.0.6
 
 - New Ingame Settings tabs: Viewmodel, Graphics, HUD, Game and Console.
