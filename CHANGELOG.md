@@ -1,5 +1,15 @@
 # Update notes
 
+## v1.0.6
+
+- New Ingame Settings tabs: Viewmodel, Graphics, HUD, Game and Console.
+- Graphics (resolution, display mode, anti-aliasing, shadows, textures, Reflex and more) are written to each account's CS2 video settings on sign-in.
+- Console tab: your own console commands run at every CS2 start, plus launch options like -novid.
+- Auto Offline: sign in as Invisible (default), Offline or Online. Settings > Auto deploy.
+- Clear workshop subscriptions is now on by default.
+- Fixed: last online, account age and Steam bans now load; VAC shows the Steam ban record together with the CS2 flag.
+- Copy settings from an account also copies viewmodel, graphics, HUD and game settings.
+
 ## v1.0.4
 
 - Check for updates always works; the Update button only appears when a newer version is out.
