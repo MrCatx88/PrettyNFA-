@@ -1,5 +1,13 @@
 # Update notes
 
+## v1.0.10
+
+- Hardware spoofer card rewritten in plain language, and it now names its own limit: it hooks Steam, so kernel-level and custom anti-cheats still read the real machine.
+- Spoofer readout fixed - the last run printed the timestamp where the process name belongs ("14 hooks active in 2026-10-26 13:58:04 at steam.exe").
+- Spoofer verified end to end: computer name, MachineGuid, ProductId, volume serial, disk serial and MAC (including the permanent copy) all read back as the identity stored in the account profile - 16 identifiers, none left real.
+- Theme picker removed; PrettyNFA is always dark.
+- A debug verifier now lives in the repository (tools/spoof-check) - it prints what a process reads before and after injection, next to the profile's own values.
+
 ## v1.0.8
 
 - Clear Workshop Maps on Settings wipes the locally cached workshop content, so CS2 stops listing maps Steam already shows as gone.
