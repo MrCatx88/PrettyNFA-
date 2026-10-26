@@ -1,5 +1,13 @@
 # Update notes
 
+## v1.0.8
+
+- Clear Workshop Maps on Settings wipes the locally cached workshop content, so CS2 stops listing maps Steam already shows as gone.
+- New Hardware spoofer toggle: Steam starts with a module that answers its hardware reads with an identity saved per account.
+- Spoofed inside the Steam process only: machine GUID, computer name, MAC, volume serial, disk serial and Windows ProductId. Nothing is written to the registry, no driver, no system-wide change.
+- The identity is generated once per account and stored encrypted with Windows DPAPI, so the same account keeps presenting the same machine.
+- The Settings card reports how many hooks were live on the last run.
+
 ## v1.0.7
 
 - Installer: the finished page no longer overlaps the PrettyNFA header.
